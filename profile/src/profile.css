@@ -1,0 +1,304 @@
+.profile,
+.profile * {
+    box-sizing: border-box;
+}
+
+.profile {
+    background: var(--d-base-bg, #0c111a);
+    width: 1920px;
+    height: 1080px;
+    position: relative;
+    overflow: hidden;
+}
+
+.info-display {
+    background: var(--d-secondary-bg, #151a24);
+    border-radius: 25px;
+    width: 400px;
+    height: 554.45px;
+    position: absolute;
+    left: 166px;
+    top: 190px;
+}
+
+.pic {
+    background: var(--d-border-accent, #2b2b2b);
+    border-radius: 50%;
+    width: 229.41px;
+    height: 229.41px;
+    position: absolute;
+    left: 85.29px;
+    top: 60.29px;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.name-main {
+    color: var(--d-basetext, #ffffff);
+    text-align: center;
+    font: 500 30px "Poppins-Medium", sans-serif;
+    position: relative;
+    top: 322.71px;
+}
+
+.regno {
+    color: var(--d-disabled-text, #7d7d7d);
+    text-align: center;
+    font: 500 24px "Poppins-Medium", sans-serif;
+    position: relative;
+    top: 337.71px;
+}
+
+.primary-button {
+    background: var(--accent-logo-button, #104fe1);
+    border-radius: 12px;
+    padding: 20px 60px 20px 60px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    height: 64px;
+    position: absolute;
+    left: 88px;
+    top: 428.91px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.08);
+    overflow: hidden;
+}
+
+.button-text {
+    color: var(--d-basetext, #ffffff);
+    text-align: left;
+    font: 500 20px "Poppins-Medium", sans-serif;
+    position: relative;
+    cursor: pointer;
+}
+
+.main-title {
+    color: var(--d-basetext, #ffffff);
+    text-align: left;
+    font: 600 36px "Poppins-SemiBold", sans-serif;
+    position: absolute;
+    left: 156px;
+    top: 29.2px;
+}
+
+.edit-area {
+    background: var(--d-secondary-bg, #151a24);
+    border-radius: 25px;
+    width: 695.85px;
+    height: 554.45px;
+    position: absolute;
+    left: 606.01px;
+    top: 190px;
+}
+
+.title {
+    color: #ffffff;
+    text-align: left;
+    font: 600 32px "Poppins-SemiBold", sans-serif;
+    position: absolute;
+    left: 46px;
+    top: 33.96px;
+}
+
+.subtitle {
+    color: #ffffff;
+    text-align: left;
+    font: 500 28px "Poppins-Medium", sans-serif;
+    position: absolute;
+    left: 46px;
+    top: 121.96px;
+}
+
+.name-edit {
+    display: flex;
+    flex-direction: row;
+    gap: 70px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    left: 46px;
+    top: 203.96px;
+}
+
+.name {
+    color: var(--d-disabled-text, #7d7d7d);
+    text-align: left;
+    font: 500 24px "Poppins-Medium", sans-serif;
+    position: relative;
+}
+
+.name-text,
+.mail-text,
+.age-text,
+.gender-text,
+.password {
+    color: var(--d-basetext, #ffffff);
+    text-align: left;
+    font: 600 24px "Poppins-SemiBold", sans-serif;
+    position: relative;
+}
+
+.password-value {
+    color: var(--d-basetext, #ffffff);
+    text-align: left;
+    font: 500 24px "Poppins-Medium", sans-serif;
+    position: relative;
+}
+
+.mail-edit {
+    display: flex;
+    flex-direction: row;
+    gap: 66px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    left: 46px;
+    top: 263.96px;
+}
+
+.e-mail {
+    color: var(--d-disabled-text, #7d7d7d);
+    text-align: left;
+    font: 500 24px "Poppins-Medium", sans-serif;
+    position: relative;
+}
+
+.age-edit {
+    display: flex;
+    flex-direction: row;
+    gap: 92px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    left: 46px;
+    top: 323.96px;
+}
+
+.age {
+    color: var(--d-disabled-text, #7d7d7d);
+    text-align: left;
+    font: 500 24px "Poppins-Medium", sans-serif;
+    position: relative;
+}
+
+.gender-edit {
+    display: flex;
+    flex-direction: row;
+    gap: 55px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    left: 46px;
+    top: 383.96px;
+}
+
+.gender {
+    color: var(--d-disabled-text, #7d7d7d);
+    text-align: left;
+    font: 500 24px "Poppins-Medium", sans-serif;
+    position: relative;
+}
+
+.password-edit {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    left: 46px;
+    top: 443.96px;
+}
+
+.password {
+    color: var(--d-disabled-text, #7d7d7d);
+    text-align: left;
+    font: 500 24px "Poppins-Medium", sans-serif;
+    position: relative;
+}
+
+.password-value {
+    color: var(--d-basetext, #ffffff);
+    text-align: left;
+    font: 500 24px "Poppins-Medium", sans-serif;
+    position: relative;
+}
+
+.input-label {
+    color: var(--d-disabled-text, #7d7d7d);
+    text-align: left;
+    font: 500 24px "Poppins-Medium", sans-serif;
+    position: relative;
+}
+
+.input-value {
+    color: var(--d-basetext, #ffffff);
+    text-align: left;
+    font: 600 24px "Poppins-SemiBold", sans-serif;
+    position: relative;
+}
+
+.save-button {
+    background: var(--accent-logo-button, #104fe1);
+    border-radius: 12px;
+    padding: 20px 60px 20px 60px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    height: 64px;
+    position: relative;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.08);
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.save-button-text {
+    color: var(--d-basetext, #ffffff);
+    text-align: left;
+    font: 500 20px "Poppins-Medium", sans-serif;
+    position: relative;
+}
+
+.masked-password {
+    color: white;
+}
+
+.profile input {
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+.profile .masked-password {
+    color: white;
+    padding: 8px;
+}
+
+.profile .password-input-container {
+    position: relative;
+    width: 250px;
+}
+
+.profile .password-input-container input {
+    width: calc(100% - 32px);
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+.profile .show-password-button {
+    position: absolute;
+    top: 50%;
+    right: 33px;
+    transform: translateY(-50%);
+    border: none;
+    background-color: transparent;
+    color: #2C68F3;
+    cursor: pointer;
+}

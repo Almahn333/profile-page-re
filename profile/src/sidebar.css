@@ -1,0 +1,64 @@
+.sidebar,
+.sidebar * {
+    box-sizing: border-box;
+}
+
+.sidebar {
+    background: var(--d-window-bg, #080c12);
+    border-radius: 25px;
+    width: 94.12px;
+    height: 1050.41px;
+    position: relative;
+    top: 14.79px;
+    left: 21px;
+}
+
+.hamburger {
+    flex-shrink: 0;
+    width: 33.75px;
+    height: 22.5px;
+    position: relative;
+    overflow: visible;
+    top: 30.15px;
+    left: 30.18px;
+}
+
+.dashboard {
+    flex-shrink: 0;
+    width: 33.75px;
+    height: 33.75px;
+    position: relative;
+    overflow: visible;
+    top: 112.65px;
+    left: 30.15px;
+}
+
+.tests {
+    flex-shrink: 0;
+    width: 37.52px;
+    height: 37.52px;
+    position: relative;
+    overflow: visible;
+    top: 195.4px;
+    left: 28.3px;
+}
+
+.courses {
+    flex-shrink: 0;
+    width: 37.5px;
+    height: 37.5px;
+    position: relative;
+    overflow: visible;
+    top: 281.92px;
+    left: 28.3px;
+}
+
+.sidebar-icon {
+    background: var(--d-basetext, #ffffff);
+    border-radius: 50%;
+    width: 47.09px;
+    height: 47.09px;
+    position: relative;
+    top: 820px;
+    left: 23px;
+}
